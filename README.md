@@ -17,7 +17,7 @@
 # 📅 스터디 일정(12/17 ~ 01/07)
 
 <details>
-<summary>1주차(10/02)</summary>
+<summary>1주차(12/17)</summary>
 <div markdown="1">
 
 * 자기소개 시간
