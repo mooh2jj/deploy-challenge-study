@@ -1,10 +1,6 @@
 # deploy-challenge-study
 웹개발 배포 챌린지 스터디 레포지토리입니다.
 
-
-# Java-Coding-Interview-Study
-책 [&lt;자바 코딩 인터뷰 완벽 가이드>](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791157688197&orderClick=LA6)를 참고한 스터디 저장공간입니다.
-
 <br>
 
 # 📢 스터디 규칙
