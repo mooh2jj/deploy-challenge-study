@@ -38,10 +38,27 @@
  * AWS 가입 -> EC2 인스턴스 만들기  
  * Docker 설치하기(윈도우의 경우 wsl2 설치해야)
 ```
+* 환경셋팅 : https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00
+
 </div>
 </details>
 
+<details>
+<summary>2주차(12/24)</summary>
+<div markdown="1">
 
+* 백앤드 프로젝트 배포 구조도(springBoot - jenkins- docker)
+* 김종훈, 이여울님 발표
+* gradle 빌드 jar, docker container 작동 로컬에서 확인
+* crud -> jpa dto response 확인
+* 정리 : https://www.notion.so/2week-48ad0851088b497fa8335c1cf133f7e6
+
+* 과제 
+``` 
+미정
+```
+</div>
+</details>
 <br>
 
 # 🎃 주의사항
