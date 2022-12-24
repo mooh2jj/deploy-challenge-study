@@ -57,7 +57,14 @@
 
 * 과제 
 ``` 
-미정
+1) aws ec2 인스턴스에서 프로젝트 gradle jar 실행하기, 
+ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실행하기
+
+2) docker로 jenkins 설치하기(로컬, ec2) 
+
+3) exception 처리를 위한 exceptionHandler 구현하기
+
+4) 챌린지 과제 - Junit5 테스트 작성하기(controller, service)
 ```
 </div>
 </details>
