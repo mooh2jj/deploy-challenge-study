@@ -76,20 +76,20 @@ ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실
 * 코드리뷰 과제 - 현지수님 exceptionHander 커스터마이징, docker runtime 오류 문제
 * AWS EC2 생성 -> docker 설치, docker 컨테이너 실행 확인
 * 기본 docker 명령어 / 리눅스 명령어 정리
-* jenkins가 사용하는 이유
+* jenkins가 사용되는 이유
 * Jenkins freestyle 프로젝트 생성 & 원격서버 ssh 사용 docker 컨테이너 배포 (nohup이란?)
-* 정리 : 
+* 정리 : https://www.notion.so/3week-e03d67a16de34b6a9f67ef4d42a2cb51
 
 * 과제 
 ``` 
-1) MySQL docker 컨테이너 실행 및 기존 프로젝트 docker 컨테니어 연동 확인 
+1) MySQL docker 컨테이너 실행 및 기존 프로젝트 docker 컨테이너 연동하기
 
-2) ssh 명령어, scp 명령어 알아보기
+2) ssh 명령어, scp 명령어 사용해보기
 
-3) 3주차 내용 때 한 jenkins Freestyle 프로젝트로 원격 서버 ssh 접속 docker 배포 해보기
+3) 3주차 내용 때 한 jenkins Freestyle 프로젝트로 원격 서버 ssh 접속, docker 배포 해보기
 
-4) 챌린지 과제 -  git Repository 연동 -> gradle jar 생성 
--> dockerizing(docker build -> push) -> ssh 서버 docker run 배포
+4) 챌린지 과제 -  git Repository 연동 commit된 내용 반영 -> gradle jar 생성 
+-> dockerizing(docker build -> push) -> ssh 서버 docker run 배포 해보기
 ```
 </div>
 </details>
