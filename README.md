@@ -94,6 +94,32 @@ ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실
 </div>
 </details>
 
+<details>
+<summary>4주차(01/14)</summary>
+<div markdown="1">
+
+* 코드리뷰 및 소개 기술 정리
+* Jenkins 배포 자동화 과정(jenkins freestyle 프로젝트)
+ 1) git private 설정 - ssh Deploy key 등록
+ 2) git webhooks(핵심)
+ 3) gradle wrapper execute 설정
+ 4) docker build -> docker login -> docker push
+ 5) ssh 원격서버 -> docker run (docker rm & rmi)
+* 정리 : https://www.notion.so/3week-e03d67a16de34b6a9f67ef4d42a2cb51
+
+* 과제 
+``` 
+1) 지난 과정 docker 기술 리마인드 
+
+2) MySQL docker 컨테이너 실행 및 기존 프로젝트 docker 컨테이너 연동하기 (AWS)
+
+3) 챌린지 과제 - docker pipeline 프로젝트로 진행 
+git Repository 연동 commit된 내용 반영 -> gradle jar 생성 
+-> dockerizing(docker build -> push) -> ssh 서버 docker run 배포 해보기
+
+```
+</div>
+</details>
 
 <br>
 
