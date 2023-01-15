@@ -105,7 +105,7 @@ ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실
   3) gradle wrapper execute 설정
   4) docker build -> docker login -> docker push
   5) ssh 원격서버 -> docker run (docker rm & rmi)
-* 정리 : https://www.notion.so/3week-e03d67a16de34b6a9f67ef4d42a2cb51
+* 정리 : https://rain-tank-b79.notion.site/4week-a987f01ccbb34baba6d24fb0aeb75752
 
 * 과제 
 ``` 
