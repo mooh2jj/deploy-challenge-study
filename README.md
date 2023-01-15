@@ -99,6 +99,11 @@ ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실
 <div markdown="1">
 
 * 코드리뷰 및 소개 기술 정리
+ ```
+ docker "독립(격리)"된 프로세스 = 컨테이너,  프로세스 통신 = network
+ AWS (EC2) 전산실 데이터 보관 서버 PC = 온프레미스 
+   vs  아마존 클라우드 서버 = AWS 서버 임대버시스 = EC2 버튼
+ ```
 * Jenkins 배포 자동화 과정(jenkins freestyle 프로젝트)
   1) git private 설정 - ssh Deploy key 등록
   2) git webhooks(핵심)
@@ -110,7 +115,7 @@ ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실
 * 과제 
 ``` 
 1) 지난 과정 docker 기술 리마인드 
-
+ 
 2) MySQL docker 컨테이너 실행 및 기존 프로젝트 docker 컨테이너 연동하기 (AWS)
 
 3) 챌린지 과제 - docker pipeline 프로젝트로 진행 
