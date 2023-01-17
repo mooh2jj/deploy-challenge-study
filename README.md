@@ -14,7 +14,7 @@
 
 <br>
 
-# 📅 스터디 일정(12/17 ~ 01/07)
+# 📅 스터디 일정(12/17 ~ 01/17)
 
 <details>
 <summary>1주차(12/17)</summary>
@@ -123,6 +123,18 @@ git Repository 연동 commit된 내용 반영 -> gradle jar 생성
 -> dockerizing(docker build -> push) -> ssh 서버 docker run 배포 해보기
 
 ```
+</div>
+</details>
+
+<details>
+<summary>5주차(01/17)</summary>
+<div markdown="1">
+
+* jenkins pipeline 프로젝트 설명
+* 정리 : https://www.notion.so/5week-c12c4078e43f45b5b169b0b594a8c749
+
+* 웹개발 배포 스터디 마지막 정리 
+
 </div>
 </details>
 
