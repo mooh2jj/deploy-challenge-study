@@ -130,7 +130,7 @@ git Repository 연동 commit된 내용 반영 -> gradle jar 생성
 <summary>5주차(01/17)</summary>
 <div markdown="1">
 
-* jenkins pipeline 프로젝트 설명
+* jenkins pipeline 프로젝트 설명 - 유튜브 영상으로 대체
 * 정리 : https://www.notion.so/5week-c12c4078e43f45b5b169b0b594a8c749
 
 * 웹개발 배포 스터디 마지막 정리 
