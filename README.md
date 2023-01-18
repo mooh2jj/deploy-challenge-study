@@ -53,7 +53,7 @@
 * 김종훈, 이여울님 발표
 * gradle 빌드 jar, docker container 작동 로컬에서 확인
 * crud -> jpa dto response 확인
-* 정리 : https://www.notion.so/2week-48ad0851088b497fa8335c1cf133f7e6
+* 정리 : https://www.notion.so/1week-48ad0851088b497fa8335c1cf133f7e6
 
 * 과제 
 ``` 
@@ -78,7 +78,7 @@ ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실
 * 기본 docker 명령어 / 리눅스 명령어 정리
 * jenkins가 사용되는 이유
 * Jenkins freestyle 프로젝트 생성 & 원격서버 ssh 사용 docker 컨테이너 배포 (nohup이란?)
-* 정리 : https://www.notion.so/3week-e03d67a16de34b6a9f67ef4d42a2cb51
+* 정리 : https://www.notion.so/2week-e03d67a16de34b6a9f67ef4d42a2cb51
 
 * 과제 
 ``` 
@@ -110,7 +110,7 @@ ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실
   3) gradle wrapper execute 설정
   4) docker build -> docker login -> docker push
   5) ssh 원격서버 -> docker run (docker rm & rmi)
-* 정리 : https://rain-tank-b79.notion.site/4week-a987f01ccbb34baba6d24fb0aeb75752
+* 정리 : https://www.notion.so/3week-a987f01ccbb34baba6d24fb0aeb75752
 
 * 과제 
 ``` 
@@ -131,7 +131,7 @@ git Repository 연동 commit된 내용 반영 -> gradle jar 생성
 <div markdown="1">
 
 * jenkins pipeline 프로젝트 설명 - 유튜브 영상으로 대체
-* 정리 : https://www.notion.so/5week-c12c4078e43f45b5b169b0b594a8c749
+* 정리 : https://www.notion.so/4week-c12c4078e43f45b5b169b0b594a8c749
 
 * 웹개발 배포 스터디 마지막 정리 
 
