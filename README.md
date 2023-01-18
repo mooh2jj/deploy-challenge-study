@@ -17,7 +17,7 @@
 # 📅 스터디 일정(12/17 ~ 01/17)
 
 <details>
-<summary>1주차(12/17)</summary>
+<summary>OT(12/17)</summary>
 <div markdown="1">
 
 * 자기소개 시간
@@ -46,7 +46,7 @@
 </details>
 
 <details>
-<summary>2주차(12/24)</summary>
+<summary>1주차(12/24)</summary>
 <div markdown="1">
 
 * 백앤드 프로젝트 배포 구조도(springBoot - jenkins- docker)
@@ -70,7 +70,7 @@ ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실
 </details>
 
 <details>
-<summary>3주차(01/07)</summary>
+<summary>2주차(01/07)</summary>
 <div markdown="1">
 
 * 코드리뷰 과제 - 현지수님 exceptionHander 커스터마이징, docker runtime 오류 문제
@@ -95,7 +95,7 @@ ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실
 </details>
 
 <details>
-<summary>4주차(01/14)</summary>
+<summary>3주차(01/14)</summary>
 <div markdown="1">
 
 * 코드리뷰 및 소개 기술 정리
@@ -127,7 +127,7 @@ git Repository 연동 commit된 내용 반영 -> gradle jar 생성
 </details>
 
 <details>
-<summary>5주차(01/17)</summary>
+<summary>4주차(01/17)</summary>
 <div markdown="1">
 
 * jenkins pipeline 프로젝트 설명 - 유튜브 영상으로 대체
