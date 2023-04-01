@@ -17,128 +17,32 @@
 # 📅 스터디 일정(12/17 ~ 01/17)
 
 <details>
-<summary>OT(12/17)</summary>
+<summary>1주차(04/01)</summary>
 <div markdown="1">
 
-* 자기소개 시간
-* 스터디 취지, 방향, 구성 방식 설명
+* OT 진행 - 스터디 취지, 방향, 구성 방식 설명
+* 백앤드 프로젝트 배포 구조도(springBoot - jenkins- docker)
+* gradle 빌드 실습
+
 * 과제 
 ``` 
-1) 사용 툴 설치및 이해하기 
- * IntelliJ(얼티메이트 버전 추천-플러그인 사용 가능)
- * MySQL, DB 접속 HediSQL 
- * e2e 테스트용 postman
- * git/github
-
-2) 해당 레포지토리 fork & PR 해보기 
+1) 해당 레포지토리 fork & PR 해보기 
  
-3) SpringBoot, JPA(ORM), Mysql 사용 간단한 CRUD REST API 만들기(Entity 명은 각자 취향대로)
+2) SpringBoot 간단한 REST API 만들어서 gradle jar 빌드 후 실행하기
 
-4) 배포 환경설정 구축
+3) 배포 환경설정 구축 및 배포
+ * 만든 SpringBoot jar 프로젝트를 Docker 이미지로 만들기 -> 로컬에서 Docker 컨테이너 실행하기
  * AWS 가입 -> EC2 인스턴스 만들기  
- * Docker 설치하기(윈도우의 경우 wsl2 설치해야)
+ * EC2 서버에 gradle jar 배포하기 (jar 실행)
+❗challenge - MySQL AWS EC2 인스턴스 만들고 jar 파일 배포한 EC2 인스턴스와 연동, 실행 성공시키기!
 ```
-* 환경셋팅 : https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00
+
+* 개발도구 설치 : https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00
+* intelliJ 설정 : https://www.notion.so/IntelliJ-404f4523081d4868a6ea7fb09cbd630e
+* 1주차 정리 : https://www.notion.so/1week-48ad0851088b497fa8335c1cf133f7e6
 
  <br>
- 
-</div>
-</details>
 
-<details>
-<summary>1주차(12/24)</summary>
-<div markdown="1">
-
-* 백앤드 프로젝트 배포 구조도(springBoot - jenkins- docker)
-* 김종훈, 이여울님 발표
-* gradle 빌드 jar, docker container 작동 로컬에서 확인
-* crud -> jpa dto response 확인
-* 정리 : https://www.notion.so/1week-48ad0851088b497fa8335c1cf133f7e6
-
-* 과제 
-``` 
-1) aws ec2 인스턴스에서 프로젝트 gradle jar 실행하기, 
-ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실행하기
-
-2) docker로 jenkins 설치하기(로컬, ec2) 
-
-3) exception 처리를 위한 exceptionHandler 구현하기
-
-4) 챌린지 과제 - Junit5 테스트 작성하기(controller, service)
-```
-</div>
-</details>
-
-<details>
-<summary>2주차(01/07)</summary>
-<div markdown="1">
-
-* 코드리뷰 과제 - 현지수님 exceptionHander 커스터마이징, docker runtime 오류 문제
-* AWS EC2 생성 -> docker 설치, docker 컨테이너 실행 확인
-* 기본 docker 명령어 / 리눅스 명령어 정리
-* jenkins가 사용되는 이유
-* Jenkins freestyle 프로젝트 생성 & 원격서버 ssh 사용 docker 컨테이너 배포 (nohup이란?)
-* 정리 : https://www.notion.so/2week-e03d67a16de34b6a9f67ef4d42a2cb51
-
-* 과제 
-``` 
-1) MySQL docker 컨테이너 실행 및 기존 프로젝트 docker 컨테이너 연동하기
-
-2) ssh 명령어, scp 명령어 사용해보기
-
-3) 3주차 내용 때 한 jenkins Freestyle 프로젝트로 원격 서버 ssh 접속, docker 배포 해보기
-
-4) 챌린지 과제 -  git Repository 연동 commit된 내용 반영 -> gradle jar 생성 
--> dockerizing(docker build -> push) -> ssh 서버 docker run 배포 해보기
-```
-</div>
-</details>
-
-<details>
-<summary>3주차(01/14)</summary>
-<div markdown="1">
-
-* 코드리뷰 및 소개 기술 정리
- ```
- docker "독립(격리)"된 프로세스 = 컨테이너,  프로세스 통신 = network
- AWS (EC2) 전산실 데이터 보관 서버 PC = 온프레미스 
-   vs  아마존 클라우드 서버 = AWS 서버 임대버시스 = EC2 버튼
- ```
-* Jenkins 배포 자동화 과정(jenkins freestyle 프로젝트)
-  1) git private 설정 - ssh Deploy key 등록
-  2) git webhooks(핵심)
-  3) gradle wrapper execute 설정
-  4) docker build -> docker login -> docker push
-  5) ssh 원격서버 -> docker run (docker rm & rmi)
-* 정리 : https://www.notion.so/3week-a987f01ccbb34baba6d24fb0aeb75752
-
-* 과제 
-``` 
-1) 지난 과정 docker 기술 리마인드 
- 
-2) MySQL docker 컨테이너 실행 및 기존 프로젝트 docker 컨테이너 연동하기 (AWS)
-
-3) 챌린지 과제 - docker pipeline 프로젝트로 진행 
-git Repository 연동 commit된 내용 반영 -> gradle jar 생성 
--> dockerizing(docker build -> push) -> ssh 서버 docker run 배포 해보기
-
-```
-</div>
-</details>
-
-<details>
-<summary>4주차(01/17)</summary>
-<div markdown="1">
-
-* jenkins pipeline 프로젝트 설명 - 유튜브 영상으로 대체
-* 정리 : https://www.notion.so/4week-c12c4078e43f45b5b169b0b594a8c749
-
-* 웹개발 배포 스터디 마지막 정리 
-
-</div>
-</details>
-
-<br>
 
 # 🎃 주의사항
 
