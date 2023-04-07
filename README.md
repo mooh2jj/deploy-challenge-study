@@ -41,6 +41,8 @@
 * intelliJ 설정 : https://www.notion.so/IntelliJ-404f4523081d4868a6ea7fb09cbd630e
 * 1주차 정리 : https://www.notion.so/1week-48ad0851088b497fa8335c1cf133f7e6
 
+</details>
+
  <br>
 
 
