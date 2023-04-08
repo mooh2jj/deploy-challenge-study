@@ -43,6 +43,28 @@
 
 </details>
 
+<details>
+<summary>2주차(04/08)</summary>
+<div markdown="1">
+
+* 과제 내용 복습
+* docker 명령어
+* gradle vs gradlew
+* AWS EC2 인스턴스(Ubuntu20.04) 내 서버 설정
+* docker 설치
+* jenkins 설치
+
+* 과제 
+``` 
+1) SCP 명령어 실습 - 추후 내용 보강 후 알려드림
+2) jenkins 내 publish-over-ssh 수동설치 후 private&pulbic key 설정등록하기
+3) worker-instance 에 docker run 실행 시키기
+```
+
+* 2주차 정리 : https://www.notion.so/2week-e03d67a16de34b6a9f67ef4d42a2cb51
+
+</details>
+
  <br>
 
 
