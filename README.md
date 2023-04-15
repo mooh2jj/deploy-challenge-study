@@ -65,6 +65,25 @@
 
 </details>
 
+<details>
+<summary>3주차(04/15)</summary>
+<div markdown="1">
+
+* jenkins 인스턴스 -> worker 인스턴스 로 docker 명령어 전달
+* ssh 원격 접속을 위한 설정 (개인키 & 공개키 등록)
+* Freestyle 프로젝트 설정
+* 실습
+
+* 과제 
+``` 
+- 못다한 Freestyle 프로젝트 진행 + ver2 프로젝트까지 진행
+  => 3week 노션 정리에서 참조!
+```
+
+* 3주차 정리 : https://www.notion.so/3week-a987f01ccbb34baba6d24fb0aeb75752
+
+</details>
+
  <br>
 
 
