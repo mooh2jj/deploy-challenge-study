@@ -84,6 +84,26 @@
 
 </details>
 
+<details>
+<summary>4주차(04/21)</summary>
+<div markdown="1">
+
+* jenkins 인스턴스 -> worker 인스턴스 로 docker 명령어 전달
+* ssh Agent 플러그인으로 원격 접속을 위한 설정 (개인키 등록)
+* pipeline 프로젝트 설정 script 방식의 프로세스 
+* git webhook 설정으로 자동배포화 구동
+
+* 과제 
+``` 
+- 못다한 배포 프로젝트 정리 - 끝까지 완성한 경험 딱 한번!이면 됨
+```
+
+* 4주차 정리 : https://www.notion.so/4week-c12c4078e43f45b5b169b0b594a8c749
+
+</details>
+
+ <br>
+
  <br>
 
 
