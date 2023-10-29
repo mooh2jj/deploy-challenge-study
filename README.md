@@ -14,10 +14,10 @@
 
 <br>
 
-# 📅 스터디 일정(04/01 ~ 04/22)
+# 📅 스터디 일정(10/14 ~ 11/5)
 
 <details>
-<summary>1주차(04/01)</summary>
+<summary>1주차(10/14)</summary>
 <div markdown="1">
 
 * OT 진행 - 스터디 취지, 방향, 구성 방식 설명
@@ -44,7 +44,7 @@
 </details>
 
 <details>
-<summary>2주차(04/08)</summary>
+<summary>2주차(10/21)</summary>
 <div markdown="1">
 
 * 과제 내용 복습
@@ -64,9 +64,10 @@
 </details>
 
 <details>
-<summary>3주차(04/15)</summary>
+<summary>3주차(10/28)</summary>
 <div markdown="1">
 
+* AWS 네트워크 인프라 구조 설명(VPC, subnet, IGW, NAT GW, ALB, Auto-scaling, Nginx 등) 
 * jenkins 인스턴스 -> worker 인스턴스 로 docker 명령어 전달
 * ssh 원격 접속을 위한 설정 (개인키 & 공개키 등록)
 * Freestyle 프로젝트 설정
