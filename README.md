@@ -76,7 +76,8 @@
 * 과제 
 ``` 
 - 못다한 Freestyle 프로젝트 진행 + ver2 프로젝트까지 진행
-  => 3week 노션 정리에서 참조!
+- jenkins 빌드 버튼 재반복시에도 worker 인스턴스 배포 오류없이 진행토록 설정
+(docker run 명령어 앞에 docker 명령어 있어야!)
 ```
 
 </details>
