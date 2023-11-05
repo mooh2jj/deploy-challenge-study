@@ -83,13 +83,12 @@
 </details>
 
 <details>
-<summary>4주차(04/21)</summary>
+<summary>4주차(11/05)</summary>
 <div markdown="1">
 
 * jenkins 인스턴스 -> worker 인스턴스 로 docker 명령어 전달
-* ssh Agent 플러그인으로 원격 접속을 위한 설정 (개인키 등록)
 * pipeline 프로젝트 설정 script 방식의 프로세스 
-* git webhook 설정으로 자동배포화 구동
+* jenkins&docker -> aws codeploy -> s3 -> deploy.sh ssh 서버에 전달 및 실행 실습
 
 * 과제 
 ``` 
